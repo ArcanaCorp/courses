@@ -1,0 +1,94 @@
+.main {
+    width: 100vw;
+    overflow-x: auto;
+    height: calc(100vh - 60px);
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0rem;
+}
+
+.banner {
+    width: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.swiper .swiper-wrapper .swiper-slide {
+    object-fit: cover;
+    background-color: #FFFFFF;
+}
+
+.banner-title {
+    padding: 2rem 0rem;
+}
+
+.banner-title h2 {
+    text-align: center;
+    color: var(--primary);
+}
+
+.banner-courses {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.banner-courses .card {
+    width: 100%;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: var(--border-default);
+    background-color: var(--white);
+}
+
+.banner-courses .card .card-img {
+    width: 100%;
+    height: 200px;
+    background-color: #F2F0F5;
+}
+
+.banner-courses .card .card-txt {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.banner-courses .card .card-txt .title-course {
+    margin-bottom: .5rem;
+}
+.banner-courses .card .card-txt .parragraph {
+    font-size: .8rem;
+    color: #888888;
+    line-height: 24px;
+}
+.banner-courses .card .card-txt .teacher {
+    margin: .2rem 0rem;
+    font-size: .8rem;
+}
+.banner-courses .card .card-txt .teacher span {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.banner-courses .card .card-cta {
+    width: 100%;
+}
+.banner-courses .card .card-cta a {
+    width: 100%;
+    height: 40px;
+    display: grid;
+    place-items: center;
+}

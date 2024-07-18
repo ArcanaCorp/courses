@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Regla para reescribir URL amigable
+    RewriteRule ^c/([0-9]+)$ c/?c=$1 [L,QSA]
+    RewriteRule ^profile/([0-9]+)$ profile/?user=$1 [L,QSA]
+
+    # Opcional: Si tienes otras reglas para otras partes del sitio, agrégalas aquí
+</IfModule>
